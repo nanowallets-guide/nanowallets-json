@@ -1,1 +1,34 @@
-{}
+[
+    {
+        "name": "Example",
+        "slug": "example",
+        "features": {
+            "platforms": ["web"],
+            "openSource": true,
+            "changeRepSupport": true,
+            "multiAssetSupport": true,
+            "ledgerSupport": true,
+            "ledgerRecovery": true,
+            "contactBook": true, 
+            "multiAccount": true,
+            "watchOnlyAddress": true,
+            "seedImport": ["Nano", "bip32"],
+            "seedExport": ["Nano", "bip32"],
+            "mnemonicImport": ["12-word", "24-word"],
+            "mnemonicExport": ["12-word", "24-word"],
+            "privateKeyImport": true,
+            "privateKeyExport": true,
+            "privateKeyDerivation": ["blake2b", "bip39/44"],
+            "keyStorage": ["local"],
+            "hostsTheirOwnRep": "{url_to_rep}",
+            "exchangeService": true,
+            "qrReader":true,
+            "qrGenerator":true,
+            "authenticationMethods": ["password"],
+            "download": "{url_to_download}",
+            "other": ""
+        },
+        "tooltip": "",
+        "logo": "{url_to_wallet_logo}"
+    }
+]
