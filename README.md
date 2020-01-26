@@ -43,6 +43,7 @@ All features must be in camelCase. All boolean feature values can be null if sup
     "name": "Natrium",
     "slug": "natrium",
     "logo": "https://nanowallets.guide/assets/wallet-logos/natrium.png",
+    "featureComplete": true,
     "features": {
         "platforms": ["android", "ios"],
         "openSource": true,
