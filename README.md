@@ -7,35 +7,35 @@ A json feature-list for wallets that support Nano, were the user have access to 
 
 ## Features
 
-These are the currently added features. Feature additions can easily be made through a normal pull-request (all wallets must include all features).
-
+These are the currently added features. Feature additions can easily be made through a normal pull-request (all wallets must include all features). `featureComplete` is used to indicate if all feature data has been filled and completed.
 All features must be in camelCase. All boolean feature values can be null if support for that feature is unknown.
-| **Feature name**          | **Description**                                                                                                                                                                                               | **Type**                                                                        |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| **platforms**             | Platforms this wallet supports.                                                                                                                                                                               | Array(String)                                                                   |
-| **openSource**            | If core parts (core as in handling of funds) of the wallet are open source.                                                                                                                                   | Bool                                                                            |
-| **changeRepSupport**      | Possibility to change representative through the wallets UI.                                                                                                                                                  | Bool                                                                            |
-| **multiAssetSupport**     | Allows for handling of other cryptocurrencies than Nano.                                                                                                                                                      | Bool                                                                            |
-| **ledgerSupport**         | Can be used with [Ledger](https://www.ledger.com/).                                                                                                                                                           | Bool                                                                            |
-| **ledgerRecovery**        | Supports [Ledger](https://www.ledger.com/) recovery.                                                                                                                                                          | Bool                                                                            |
-| **contactBook**           | Can store contacts (nano addresses) within the wallet                                                                                                                                                         | Bool                                                                            |
-| **multiAccount**          | Supports multiple accounts (indexes)                                                                                                                                                                          | Bool                                                                            |
-| **watchOnlyAddress**      | ???                                                                                                                                                                                                           | Bool                                                                            |
-| **seedImport**            | Types of Seed import the wallet supports, examples being a "Nano seed", 64 character (entropy) for more on the different seed types see [Seed types](#seed-types-and-private-keys-within-the-context-of-nano) | Array(String)                                                                   |
-| **seedExport**            | Same as import but types of Seeds you can export through the wallet.                                                                                                                                          | Array(String)                                                                   |
-| **mnemonicImport**        | Types of Mnemonic phrase types the wallets supports.                                                                                                                                                          | Array(String)                                                                   |
-| **mnemonicExport**        | Same as import but types of Mnemonic phrases you can export through the wallet.                                                                                                                               | Array(String)                                                                   |
-| **privateKeyImport**      | Can import private keys.                                                                                                                                                                                      | Bool                                                                            |
-| **privateKeyExport**      | Can export private keys.                                                                                                                                                                                      | Bool                                                                            |
-| **privateKeyDerivation**  | Types of derivation used for private keys                                                                                                                                                                     | Array(String)                                                                   |
-| **keyStorage**            | Where/how keys are stored                                                                                                                                                                                     | Array(String)                                                                   |
-| **hostsTheirOwnRep**      | Does this wallet host their own representative.                                                                                                                                                               | Bool, String (*if they do value should be url to representative if applicable*) |
-| **exchangeService**       | Offers an exchange service.                                                                                                                                                                                   | Bool                                                                            |
-| **qrReader**              | Can read QR codes.                                                                                                                                                                                            | Bool                                                                            |
-| **qrGenerator**           | Can generate QR codes for transactions.                                                                                                                                                                       | Bool                                                                            |
-| **authenticationMethods** | Authentication methods this wallet supports.                                                                                                                                                                  | Array(String)                                                                   |
-| **moreInformation**       | A url to where more information about the wallet can be found.                                                                                                                                                | String                                                                          |
-| **other**                 | Any text/html with additional information about the wallet not applicable to a specific feature.                                                                                                              | String                                                                          |
+
+|**Feature name**|**Description**|**Type**|
+|----------------|---------------|--------|
+|**platforms**|Platforms this wallet supports.|Array(String)|
+|**openSource**|If core parts (core as in handling of funds) of the wallet are open source.|Bool|
+|**changeRepSupport**|Possibility to change representative through the wallets UI.|Bool|
+|**multiAssetSupport**|Allows for handling of other cryptocurrencies than Nano.|Bool|
+|**ledgerSupport**|Can be used with [Ledger](https://www.ledger.com/).|Bool|
+|**ledgerRecovery**|Supports [Ledger](https://www.ledger.com/) recovery.|Bool|
+|**contactBook**|Can store contacts (nano addresses) within the wallet|Bool|
+|**multiAccount**|Supports multiple accounts (indexes)|Bool|
+|**watchOnlyAddress**|???|Bool|
+|**seedImport**|Types of Seed import the wallet supports, examples being a "Nano seed", 64 character (entropy) for more on the different seed types see [Seed types](#seed-types-and-private-keys-within-the-context-of-nano)|Array(String)|
+|**seedExport**|Same as import but types of Seeds you can export through the wallet.|Array(String)|
+|**mnemonicImport**|Types of Mnemonic phrase types the wallets supports.|Array(String)|
+|**mnemonicExport**|Same as import but types of Mnemonic phrases you can export through the wallet.|Array(String)|
+|**privateKeyImport**|Can import private keys.|Bool|
+|**privateKeyExport**|Can export private keys.|Bool|
+|**privateKeyDerivation**|Types of derivation used for private keys|Array(String)|
+|**keyStorage**|Where/how keys are stored|Array(String)|
+|**hostsTheirOwnRep**|Does this wallet host their own representative.|Bool, String (*if they do value should be url to representative if applicable*)|
+|**exchangeService**|Offers an exchange service.|Bool|
+|**qrReader**|Can read QR codes.|Bool|
+|**qrGenerator**|Can generate QR codes for transactions.|Bool|
+|**authenticationMethods**|Authentication methods this wallet supports.|Array(String)|
+|**moreInformation**|A url to where more information about the wallet can be found.|String|
+|**other**|Any text/html with additional information about the wallet not applicable to a specific feature.|String|
 
 ## Example
 ```
