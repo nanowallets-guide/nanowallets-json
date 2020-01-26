@@ -7,8 +7,7 @@ A json feature-list for wallets that support Nano, were the user have access to 
 
 ## Features
 
-These are the currently added features. Feature additions can easily be made through a normal pull-request (all wallets must include all features).
-
+These are the currently added features. Feature additions can easily be made through a normal pull-request (all wallets must include all features). `featureComplete` is used to indicate if all feature data has been filled and completed.
 All features must be in camelCase. All boolean feature values can be null if support for that feature is unknown.
 
 |**Feature name**|**Description**|**Type**|
