@@ -12,7 +12,7 @@ All features must be in camelCase. All boolean feature values can be null if sup
 
 |**Feature name**|**Description**|**Type**|
 |----------------|---------------|--------|
-|**platforms**|Platforms this wallet supports.|Array(String)|
+|**platforms**|Platforms this wallet supports. For example Win, MacOS, Linux, iOS, Android.|Array(String)|
 |**openSource**|If core parts (core as in handling of funds) of the wallet are open source.|Bool|
 |**changeRepSupport**|Possibility to change representative through the wallets UI.|Bool|
 |**multiAssetSupport**|Allows for handling of other cryptocurrencies than Nano.|Bool|
@@ -20,20 +20,20 @@ All features must be in camelCase. All boolean feature values can be null if sup
 |**ledgerRecovery**|Supports [Ledger](https://www.ledger.com/) recovery.|Bool|
 |**contactBook**|Can store contacts (nano addresses) within the wallet|Bool|
 |**multiAccount**|Supports multiple accounts (indexes)|Bool|
-|**watchOnlyAddress**|???|Bool|
-|**seedImport**|Types of Seed import the wallet supports, examples being a "Nano seed", 64 character (entropy) for more on the different seed types see [Seed types](#seed-types-and-private-keys-within-the-context-of-nano)|Array(String)|
+|**watchOnlyAddress**|Can track the amount of any Nano address (public key). A watch-only address can not receive or send funds because there is no private key (or seed) involved.|Bool|
+|**seedImport**|Types of Seed import the wallet supports, examples being a "nano seed", a 64 character entropy. For more on the different seed types see [Seed types](#seed-types-and-private-keys-within-the-context-of-nano)|Array(String)|
 |**seedExport**|Same as import but types of Seeds you can export through the wallet.|Array(String)|
-|**mnemonicImport**|Types of Mnemonic phrase types the wallets supports.|Array(String)|
+|**mnemonicImport**|Types of Mnemonic phrase the wallets supports. For example 12-word, 24-word.|Array(String)|
 |**mnemonicExport**|Same as import but types of Mnemonic phrases you can export through the wallet.|Array(String)|
 |**privateKeyImport**|Can import private keys.|Bool|
 |**privateKeyExport**|Can export private keys.|Bool|
-|**privateKeyDerivation**|Types of derivation used for private keys|Array(String)|
-|**keyStorage**|Where/how keys are stored|Array(String)|
+|**privateKeyDerivation**|Types of derivation used for private keys. Find out more under [Private keys](#seed-types-and-private-keys-within-the-context-of-nano).|Array(String)|
+|**keyStorage**|Where/how keys are stored. For example ram, local cache, local disk, remote db.|Array(String)|
 |**hostsTheirOwnRep**|Does this wallet host their own representative.|Bool, String (*if they do value should be url to representative if applicable*)|
-|**exchangeService**|Offers an exchange service.|Bool|
-|**qrReader**|Can read QR codes.|Bool|
-|**qrGenerator**|Can generate QR codes for transactions.|Bool|
-|**authenticationMethods**|Authentication methods this wallet supports.|Array(String)|
+|**exchangeService**|Offers an exchange service to sell and/or buy Nano for other currencies.|Bool|
+|**qrReader**|Can read QR codes for sending Nano.|Bool|
+|**qrGenerator**|Can generate/display QR codes to aid transactions.|Bool|
+|**authenticationMethods**|Authentication methods this wallet supports. password, pin, biometrics, 2fa|Array(String)|
 |**moreInformation**|A url to where more information about the wallet can be found.|String|
 |**other**|Any text/html with additional information about the wallet not applicable to a specific feature.|String|
 
@@ -75,15 +75,16 @@ All features must be in camelCase. All boolean feature values can be null if sup
 
 ## Seed types and private keys within the context of Nano
 
-### Nano seed
-A Nano seed is 64 characters long and is what is called an [Entropy](https://en.wikipedia.org/wiki/Entropy_(computing)). Can be converted to a 24-word mnemonic phrase.
+### Seed types
+* A **Nano seed** is a 64 long hexadecimal string and is what is called an [Entropy](https://en.wikipedia.org/wiki/Entropy_(computing)). Can be converted to a 24-word mnemonic phrase, for example, by using [bip39.entropyToMnemonic()](https://www.npmjs.com/package/bip39).
+* A **Bip32 seed** is a 128 long hexadecimal string and can also be converted to a 24-word phrase that is called a Bip32 mnemonic, for example by using [nanocurrency-web-js](https://github.com/numsu/nanocurrency-web-js)
 
-### Private keys
-When a Nano seed is imported into a wallet that seed will be converted to a private key using blake2b derivation (only derivation applicable to a Nano seed). From that the Nano public key (aka account) is derived.
-When a 24-word or 12-word phrase is imported that phrase will be converted to a private key using either blake2b or bip39/44 derivation.
+### Private keys and derivation types
+* When a Nano seed is imported into a wallet that seed will be converted to one or more private keys using **blake2b** derivation (only derivation applicable to a Nano seed). From that the Nano public key (aka account or address) is derived.
+* When a Bip32 seed, a 24-word or 12-word phrase is imported it will be converted to one or more private keys using either **blake2b** or **bip39/44 derivation**. For example, a Ledger hardware wallet is using bip39/44.
 
-### Bip32
-A "real" seed that is 128 characters long and is equivalent with a Bip32 mnemonic.
+### Public keys
+* A public key is a 64 long hexadecimal string and is equivalent to a Nano account/address.
 
 ### Mnemonic phrases
-A 24-word mnemonic phrase can be converted to a Nano seed. A 12-word cannot.
+A **24-word** mnemonic phrase can be converted to a Nano seed (entropy) or a Bip32 seed. A **12-word** mnemonic is used in some wallets but has a lower entropy and not recommended. A Ledger hardware wallets use 24-word by default.
