@@ -28,7 +28,7 @@ All features must be in camelCase. All boolean feature values can be null if sup
 |**privateKeyImport**|Can import private keys.|Bool|
 |**privateKeyExport**|Can export private keys.|Bool|
 |**privateKeyDerivation**|Types of derivation used for private keys. Find out more under [Private keys](#seed-types-and-private-keys-within-the-context-of-nano).|Array(String)|
-|**keyStorage**|Where/how keys are stored. For example ram, local cache, local disk, remote db.|Array(String)|
+|**keyStorage**|Where/how keys are stored. For example none, local, remote.|Array(String)|
 |**hostsTheirOwnRep**|Does this wallet host their own representative.|Bool, String (*if they do value should be url to representative if applicable*)|
 |**exchangeService**|Offers an exchange service to sell and/or buy Nano for other currencies.|Bool|
 |**qrReader**|Can read QR codes for sending Nano.|Bool|
