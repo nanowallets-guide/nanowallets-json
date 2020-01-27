@@ -87,4 +87,4 @@ All features must be in camelCase. All boolean feature values can be null if sup
 * A public key is a 64 long hexadecimal string and is equivalent to a Nano account/address.
 
 ### Mnemonic phrases
-A **24-word** mnemonic phrase can be converted to a Nano seed (entropy) or a Bip32 seed. A **12-word** mnemonic is used in some wallets but has a lower entropy and not recommended. A Ledger hardware wallets use 24-word by default.
+* A **24-word** mnemonic phrase can be converted to a Nano seed (entropy) or a Bip32 seed. A **12-word** mnemonic is used in some wallets but has a lower entropy and not recommended. A Ledger hardware wallets use 24-word by default.
