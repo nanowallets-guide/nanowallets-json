@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://nanowallets.guide/assets/logo-color.png" alt="Logo" width='300px' height='auto'/>
+    <img src="https://nanowallets.guide/assets/logo-color.png" alt="Logo" width='200px' height='auto'/>
 </div>
 
 # nanowallets-json
