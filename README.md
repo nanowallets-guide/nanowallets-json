@@ -13,22 +13,25 @@ All features must be in camelCase. All boolean feature values can be null if sup
 |**Feature name**|**Description**|**Type**|
 |----------------|---------------|--------|
 |**platforms**|Platforms this wallet supports. For example Win, MacOS, Linux, iOS, Android.|Array(String)|
-|**openSource**|If core parts (core as in handling of funds) of the wallet are open source.|Bool|
+|**openSource**|If core parts (core as in handling of funds) of the wallet are open source. Link to repository.|String|
 |**changeRepSupport**|Possibility to change representative through the wallets UI.|Bool|
 |**multiAssetSupport**|Allows for handling of other cryptocurrencies than Nano.|Bool|
 |**ledgerSupport**|Can be used with [Ledger](https://www.ledger.com/).|Bool|
 |**ledgerRecovery**|Supports [Ledger](https://www.ledger.com/) recovery.|Bool|
 |**contactBook**|Can store contacts (nano addresses) within the wallet|Bool|
+|**transactionNote**|Custom transaction message for wallet owner.|Bool|
 |**multiAccount**|Supports multiple accounts (indexes)|Bool|
 |**watchOnlyAddress**|Can track the amount of any Nano address (public key). A watch-only address can not receive or send funds because there is no private key (or seed) involved.|Bool|
 |**seedImport**|Types of Seed import the wallet supports, examples being a "nano seed", a 64 character entropy. For more on the different seed types see [Seed types](#seed-types-and-private-keys-within-the-context-of-nano)|Array(String)|
 |**seedExport**|Same as import but types of Seeds you can export through the wallet.|Array(String)|
 |**mnemonicImport**|Types of Mnemonic phrase the wallets supports. For example 12-word, 24-word.|Array(String)|
 |**mnemonicExport**|Same as import but types of Mnemonic phrases you can export through the wallet.|Array(String)|
-|**privateKeyImport**|Can import private keys.|Bool|
+|**privateKeyImport**|Can import private keys. Also called an Ad-hoc wallet.|Bool|
 |**privateKeyExport**|Can export private keys.|Bool|
 |**privateKeyDerivation**|Types of derivation used for private keys. Find out more under [Private keys](#seed-types-and-private-keys-within-the-context-of-nano).|Array(String)|
+|**walletSweep**|Can read a seed and/or a private key and automatically transfer the funds to it's own wallet.|Array(String)|
 |**keyStorage**|Where/how keys are stored. For example none, local, remote.|Array(String)|
+|**fileBackup**|Support backup whole wallet to a file and restore on another device.|Bool|
 |**hostsTheirOwnRep**|Does this wallet host their own representative.|Bool, String (*if they do value should be url to representative if applicable*)|
 |**exchangeService**|Offers an exchange service to sell and/or buy Nano for other currencies.|Bool|
 |**qrReader**|Can read QR codes for sending Nano.|Bool|
