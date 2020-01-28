@@ -492,7 +492,7 @@
     {
         "name": "NF Wallet (Dev)",
         "slug": "devwallet",
-        "logo": "",
+        "logo": "https://nanowallets.guide/assets/wallet-logos/nanonode.png",
         "featureComplete": true,
         "features": {
             "platforms": ["win","linux","darwin"],
@@ -527,7 +527,7 @@
     {
           "name": "Pippin (Dev)",
           "slug": "pippin",
-          "logo": "",
+          "logo": "https://nanowallets.guide/assets/wallet-logos/pippin.png",
           "featureComplete": true,
           "features": {
               "platforms": ["OS with python"],
