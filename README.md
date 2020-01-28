@@ -80,11 +80,13 @@ All features must be in camelCase. All boolean feature values can be null if sup
 * A **Bip32 seed** is a 128 long hexadecimal string and can also be converted to a 24-word phrase that is called a Bip32 mnemonic, for example by using [nanocurrency-web-js](https://github.com/numsu/nanocurrency-web-js)
 
 ### Private keys and derivation types
-* When a Nano seed is imported into a wallet that seed will be converted to one or more private keys using **blake2b** derivation (only derivation applicable to a Nano seed). From that the Nano public key (aka account or address) is derived.
-* When a Bip32 seed, a 24-word or 12-word phrase is imported it will be converted to one or more private keys using either **blake2b** or **bip39/44 derivation**. For example, a Ledger hardware wallet is using bip39/44.
+* When a Nano seed, a Bip32 seed or mnemonic is imported into a wallet that seed will be converted to one or more private keys using either **blake2b** or **bip39/44** derivation. From that the Nano public key (aka account/address) is derived.
+* For example, a Ledger hardware wallet and most multi-currency wallets are using bip39/44 while blake2b is the recommended method for native Nano wallets. However, there is nothing stopping wallets from supporting both.
 
 ### Public keys
 * A public key is a 64 long hexadecimal string and is equivalent to a Nano account/address.
 
 ### Mnemonic phrases
-* A **24-word** mnemonic phrase can be converted to a Nano seed (entropy) or a Bip32 seed. A **12-word** mnemonic is used in some wallets but has a lower entropy and not recommended. A Ledger hardware wallets use 24-word by default.
+* A **24-word** mnemonic phrase can be converted to a Nano seed (entropy) or a Bip32 seed. A **12-word** mnemonic is used in some wallets but has a lower entropy and not recommended. A Ledger hardware wallet is using a 24-word recovery phrase by default.
+
+To test all this in practice you can jump over to [KeyTools Key Converter](https://tools.nanos.cc/?tool=seed). That can be used to verify different wallets and to determine what derivation method they use. When using real keys, it's recommended to download the tool and run offline. Download link and info can be found at the tool´s home page.
