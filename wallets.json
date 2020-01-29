@@ -504,7 +504,7 @@
             "contactBook": false,
             "transactionNote": false,
             "multiAccount": false,
-            "watchOnlyAddress": false,
+            "watchOnlyAddress": true,
             "seedImport": ["nano"],
             "seedExport": ["nano"],
             "mnemonicImport": [],

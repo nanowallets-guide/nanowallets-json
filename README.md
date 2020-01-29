@@ -21,7 +21,7 @@ All features must be in camelCase. All boolean feature values can be null if sup
 |**contactBook**|Can store contacts (nano addresses) within the wallet|Bool|
 |**transactionNote**|Custom transaction message for wallet owner.|Bool|
 |**multiAccount**|Supports multiple accounts (indexes)|Bool|
-|**watchOnlyAddress**|Can track the amount of any Nano address (public key). A watch-only address can not receive or send funds because there is no private key (or seed) involved.|Bool|
+|**watchOnlyAddress**|Can view the balance of any Nano address (public key). A watch-only address can not receive or send funds because there is no private key (or seed) involved.|Bool|
 |**seedImport**|Types of Seed import the wallet supports, examples being a "nano seed", a 64 character entropy. For more on the different seed types see [Seed types](#seed-types-and-private-keys-within-the-context-of-nano)|Array(String)|
 |**seedExport**|Same as import but types of Seeds you can export through the wallet.|Array(String)|
 |**mnemonicImport**|Types of Mnemonic phrase the wallets supports. For example 12-word, 24-word.|Array(String)|
