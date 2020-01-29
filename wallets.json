@@ -66,7 +66,7 @@
             "qrGenerator": true,
             "authenticationMethods": ["password", "pin", "biometrics"],
             "moreInformation": "https://natrium.io/",
-            "other": "NFC, iWatch, Appia support, supported by the Nano Foundation.<br><a href=\"https://medium.com/appditto/natrium-v2-1-security-audit-and-more-26ebec66bd5b\" target=\"_blank\">Natrium audited by Red4Sec</a>."
+            "other": "iWatch, Appia support, supported by the Nano Foundation.<br><a href=\"https://medium.com/appditto/natrium-v2-1-security-audit-and-more-26ebec66bd5b\" target=\"_blank\">Natrium audited by Red4Sec</a>."
         }
     },
     {
@@ -285,7 +285,7 @@
         "logo": "https://nanowallets.guide/assets/wallet-logos/canoe.svg",
         "featureComplete": true,
         "features": {
-            "platforms": ["win","mac","linux","android","ios"],
+            "platforms": ["win","mac","linux","android"],
             "openSource": "https://github.com/getcanoe/canoe",
             "changeRepSupport": true,
             "multiAssetSupport": false,
@@ -307,7 +307,7 @@
             "fileBackup": ["win","mac","linux"],
             "hostsTheirOwnRep": "https://nanocharts.info/address/nano_3rropjiqfxpmrrkooej4qtmm1pueu36f9ghinpho4esfdor8785a455d16nf",
             "exchangeService": false,
-            "qrReader":["ios","android"],
+            "qrReader":["android"],
             "qrGenerator":true,
             "authenticationMethods": ["password"],
             "moreInformation": "https://github.com/getcanoe/canoe",
@@ -492,7 +492,7 @@
     {
         "name": "NF Wallet (Dev)",
         "slug": "devwallet",
-        "logo": "",
+        "logo": "https://nanowallets.guide/assets/wallet-logos/nanonode.png",
         "featureComplete": true,
         "features": {
             "platforms": ["win","linux","darwin"],

@@ -1,3 +1,7 @@
+<div align="center">
+    <img src="https://nanowallets.guide/assets/logo-color.png" alt="Logo" width='200px' height='auto'/>
+</div>
+
 # nanowallets-json
 
 ![Last updated](https://img.shields.io/github/last-commit/nanowallets-guide/nanowallets-json/master?label=last%20updated)
@@ -32,7 +36,7 @@ All features must be in camelCase. All boolean feature values can be null if sup
 |**walletSweep**|Can read a seed and/or a private key and automatically transfer the funds to it's own wallet.|Array(String)|
 |**keyStorage**|Where/how keys are stored. For example none, local, remote.|Array(String)|
 |**fileBackup**|Support backup whole wallet to a file and restore on another device.|Bool|
-|**hostsTheirOwnRep**|Does this wallet host their own representative.|Bool, String (*if they do value should be url to representative if applicable*)|
+|**hostsTheirOwnRep**|Does this wallet host their own representative. Link to representative.|String|
 |**exchangeService**|Offers an exchange service to sell and/or buy Nano for other currencies.|Bool|
 |**qrReader**|Can read QR codes for sending Nano.|Bool|
 |**qrGenerator**|Can generate/display QR codes to aid transactions.|Bool|
@@ -49,23 +53,26 @@ All features must be in camelCase. All boolean feature values can be null if sup
     "featureComplete": true,
     "features": {
         "platforms": ["android", "ios"],
-        "openSource": true,
+        "openSource": "https://github.com/appditto/natrium_wallet_flutter",
         "changeRepSupport": true,
         "multiAssetSupport": false,
         "ledgerSupport": false,
         "ledgerRecovery": false,
         "contactBook": true,
+        "transactionNote": false,
         "multiAccount": true,
         "watchOnlyAddress": false,
-        "seedImport": ["Nano"],
-        "seedExport": ["Nano"],
-        "mnemonicImport": ["24-word"],
-        "mnemonicExport": ["24-word"],
+        "seedImport": ["nano", "bip32"],
+        "seedExport": ["nano", "bip32"],
+        "mnemonicImport": ["12-word", "24-word"],
+        "mnemonicExport": ["12-word", "24-word"],
         "privateKeyImport": true,
-        "privateKeyExport": false,
-        "privateKeyDerivation": ["blake2b"],
+        "privateKeyExport": true,
+        "privateKeyDerivation": ["blake2b", "bip39/44"],
+        "walletSweep": ["nano seed","privKey"],
         "keyStorage": ["local"],
-        "hostsTheirOwnRep": "https://mynano.ninja/account/natrium",
+        "fileBackup": false,
+        "hostsTheirOwnRep": "https://nanocharts.info/address/nano_1natrium1o3z5519ifou7xii8crpxpk8y65qmkih8e8bpsjri651oza8imdd",
         "exchangeService": false,
         "qrReader": true,
         "qrGenerator": true,
