@@ -2,7 +2,7 @@
     {
         "name": "Magnum",
         "slug": "magnum",
-        "logo": "https://nanowallets.guide/assets/wallet-logos/magnum.png",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/magnum.png",
         "featureComplete": true,
         "features": {
             "platforms": ["web","android"],
@@ -37,7 +37,7 @@
     {
         "name": "Natrium",
         "slug": "natrium",
-        "logo": "https://nanowallets.guide/assets/wallet-logos/natrium.png",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/natrium.png",
         "featureComplete": true,
         "features": {
             "platforms": ["android", "ios"],
@@ -72,7 +72,7 @@
     {
         "name": "Brainblocks",
         "slug": "brainblocks",
-        "logo": "https://nanowallets.guide/assets/wallet-logos/brainblocks.png",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/brainblocks.png",
         "featureComplete": true,
         "features": {
             "platforms": ["web"],
@@ -107,7 +107,7 @@
     {
         "name": "Nanovault",
         "slug": "nanovault",
-        "logo": "https://nanowallets.guide/assets/wallet-logos/nanovault.png",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/nanovault.png",
         "featureComplete": true,
         "features": {
             "platforms": ["web","win","mac","linux"],
@@ -142,7 +142,7 @@
     {
         "name": "Ninjavault",
         "slug": "ninjavault",
-        "logo": "https://nanowallets.guide/assets/wallet-logos/ninjavault.png",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/ninjavault.png",
         "featureComplete": true,
         "features": {
             "platforms": ["web","win","mac","linux"],
@@ -177,7 +177,7 @@
     {
         "name": "Nanollet",
         "slug": "nanollet",
-        "logo": "https://nanowallets.guide/assets/wallet-logos/nanollet.jpg",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/nanollet.jpg",
         "featureComplete": true,
         "features": {
             "platforms": ["win","linux"],
@@ -212,7 +212,7 @@
     {
         "name": "Nanoblocks",
         "slug": "nanoblocks",
-        "logo": "https://nanowallets.guide/assets/wallet-logos/nanoblocks.png",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/nanoblocks.png",
         "featureComplete": true,
         "features": {
             "platforms": ["ios"],
@@ -247,7 +247,7 @@
     {
         "name": "Atomic",
         "slug": "atomic",
-        "logo": "https://nanowallets.guide/assets/wallet-logos/atomic.png",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/atomic.png",
         "featureComplete": true,
         "features": {
             "platforms": ["win","mac","linux","ios","android"],
@@ -282,7 +282,7 @@
     {
         "name": "Canoe",
         "slug": "canoe",
-        "logo": "https://nanowallets.guide/assets/wallet-logos/canoe.svg",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/canoe.svg",
         "featureComplete": true,
         "features": {
             "platforms": ["win","mac","linux","android"],
@@ -317,7 +317,7 @@
     {
         "name": "Exodus",
         "slug": "exodus",
-        "logo": "https://nanowallets.guide/assets/wallet-logos/exodus.svg",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/exodus.svg",
         "featureComplete": true,
         "features": {
             "platforms": ["win","mac","linux","ios","android"],
@@ -352,7 +352,7 @@
     {
         "name": "Trust Wallet",
         "slug": "trust-wallet",
-        "logo": "https://nanowallets.guide/assets/wallet-logos/trustwallet.png",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/trustwallet.png",
         "featureComplete": true,
         "features": {
             "platforms": ["ios","android"],
@@ -387,7 +387,7 @@
     {
         "name": "Hodler",
         "slug": "hodler",
-        "logo": "https://nanowallets.guide/assets/wallet-logos/hodler.png",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/hodler.png",
         "featureComplete": false,
         "features": {
             "platforms": ["win","linux","android"],
@@ -422,7 +422,7 @@
     {
         "name": "Nanowallet.io",
         "slug": "nanowalletio",
-        "logo": "https://nanowallets.guide/assets/wallet-logos/nanowallet.png",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/nanowallet.png",
         "featureComplete": true,
         "features": {
             "platforms": ["web"],
@@ -457,7 +457,7 @@
     {
         "name": "Keytools (Dev)",
         "slug": "keytools",
-        "logo": "https://nanowallets.guide/assets/wallet-logos/keytools.png",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/keytools.png",
         "featureComplete": true,
         "features": {
             "platforms": ["web"],
@@ -492,7 +492,7 @@
     {
         "name": "NF Wallet (Dev)",
         "slug": "devwallet",
-        "logo": "https://nanowallets.guide/assets/wallet-logos/nanonode.png",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/nanonode.png",
         "featureComplete": true,
         "features": {
             "platforms": ["win","linux","darwin"],
@@ -562,7 +562,7 @@
     {
         "name": "WeNano",
         "slug": "wenano",
-        "logo": "https://nanowallets.guide/assets/wallet-logos/wenano.png",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/wenano.png",
         "featureComplete": true,
         "features": {
             "platforms": ["ios"],
