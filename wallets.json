@@ -527,7 +527,7 @@
     {
         "name": "Pippin (Dev)",
         "slug": "pippin",
-        "logo": "",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/pippin.png",
         "featureComplete": true,
         "features": {
             "platforms": ["OS with python"],
