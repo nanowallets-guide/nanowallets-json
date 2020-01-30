@@ -558,40 +558,5 @@
             "moreInformation": "https://github.com/appditto/pippin_nano_wallet",
             "other": "High performance light python dev wallet. Node independent front-end for any RPC server. DPoW & BPoW support."
         }
-    },
-    {
-        "name": "WeNano",
-        "slug": "wenano",
-        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/wenano.png",
-        "featureComplete": true,
-        "features": {
-            "platforms": ["ios"],
-            "openSource": false,
-            "changeRepSupport": false,
-            "multiAssetSupport": false,
-            "ledgerSupport": false,
-            "ledgerRecovery": false,
-            "contactBook": true,
-            "transactionNote": true,
-            "multiAccount": false,
-            "watchOnlyAddress": false,
-            "seedImport": [],
-            "seedExport": ["nano"],
-            "mnemonicImport": [],
-            "mnemonicExport": [],
-            "privateKeyImport": false,
-            "privateKeyExport": false,
-            "privateKeyDerivation": ["blake2b"],
-            "walletSweep": [],
-            "keyStorage": ["local"],
-            "fileBackup": false,
-            "hostsTheirOwnRep": "https://nanocharts.info/address/nano_1wenanoqm7xbypou7x3nue1isaeddamjdnc3z99tekjbfezdbq8fmb659o7t",
-            "exchangeService": false,
-            "qrReader": true,
-            "qrGenerator": true,
-            "authenticationMethods": ["seed", "biometrics"],
-            "moreInformation": "https://apps.apple.com/no/app/wenano/id1477024695?l=nb",
-            "other": "<a href=\"https://discord.gg/VWrheuX\" target=\"_blank\">Discord</a>. GPS faucets with map. Socials for interacting with friends or nearby wallets. Profiles, QuickTip."
-        }
     }
 ]
