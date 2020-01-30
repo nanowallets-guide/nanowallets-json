@@ -98,6 +98,7 @@ All features must be in camelCase. All boolean feature values can be null if sup
 * A public key is a 64 long hexadecimal string and is equivalent to a Nano account/address.
 
 ### Mnemonic phrases
-* A **24-word** mnemonic phrase can be converted to a Nano seed (entropy) or a Bip32 seed. A **12-word** mnemonic is used in some wallets but has a lower entropy and not recommended. A Ledger hardware wallet is using a 24-word recovery phrase by default.
+* A **24-word** mnemonic phrase can be converted to a 64-char Nano seed (entropy) or a 128-char Bip32 seed. A **12-word** mnemonic is used in some wallets but has a lower entropy and not recommended. A Ledger hardware wallet is using a 24-word recovery phrase by default.
+* A 12-word phrase cannot be converted to 24-word or vice versa.
 
 To test all this in practice you can jump over to [KeyTools Key Converter](https://tools.nanos.cc/?tool=seed). That can be used to verify different wallets and to determine what derivation method they use. It can also be used to extract private keys from a seed or mnemonic, supporting both derivation methods. When using real keys, it's recommended to download the tool and run offline. Download link and info can be found at the tool´s home page.
