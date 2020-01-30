@@ -92,6 +92,7 @@ All features must be in camelCase. All boolean feature values can be null if sup
 ### Private keys and derivation types
 * When a Nano seed, a Bip32 seed or mnemonic is imported into a wallet that seed will be converted to one or more private keys using either **blake2b** or **bip39/44** derivation. From that the Nano public key (aka account/address) is derived.
 * For example, a Ledger hardware wallet and most multi-currency wallets are using bip39/44 while blake2b is the recommended method for native Nano wallets. However, there is nothing stopping wallets from supporting both.
+* The different methods used also mean that a mnemonic exported from one wallet may not result in the same accounts in another. It depends on the wallet implementation. But as long as a wallet can export private keys (or the mnemonic) it's safe to say you can access your Nano. Some wallets supports the use of private keys directly.
 
 ### Public keys
 * A public key is a 64 long hexadecimal string and is equivalent to a Nano account/address.
@@ -99,4 +100,4 @@ All features must be in camelCase. All boolean feature values can be null if sup
 ### Mnemonic phrases
 * A **24-word** mnemonic phrase can be converted to a Nano seed (entropy) or a Bip32 seed. A **12-word** mnemonic is used in some wallets but has a lower entropy and not recommended. A Ledger hardware wallet is using a 24-word recovery phrase by default.
 
-To test all this in practice you can jump over to [KeyTools Key Converter](https://tools.nanos.cc/?tool=seed). That can be used to verify different wallets and to determine what derivation method they use. When using real keys, it's recommended to download the tool and run offline. Download link and info can be found at the tool´s home page.
+To test all this in practice you can jump over to [KeyTools Key Converter](https://tools.nanos.cc/?tool=seed). That can be used to verify different wallets and to determine what derivation method they use. It can also be used to extract private keys from a seed or mnemonic, supporting both derivation methods. When using real keys, it's recommended to download the tool and run offline. Download link and info can be found at the tool´s home page.
