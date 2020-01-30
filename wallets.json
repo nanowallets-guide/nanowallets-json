@@ -85,7 +85,7 @@
             "transactionNote": false,
             "multiAccount": true,
             "watchOnlyAddress": false,
-            "seedImport": [],
+            "seedImport": ["nano"],
             "seedExport": ["nano"],
             "mnemonicImport": [],
             "mnemonicExport": [],
