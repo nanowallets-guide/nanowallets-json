@@ -322,7 +322,7 @@
         "features": {
             "platforms": ["win","mac","linux","ios","android"],
             "openSource": "https://www.exodus.io/",
-            "changeRepSupport": false,
+            "changeRepSupport": ["ios"],
             "multiAssetSupport": true,
             "ledgerSupport": false,
             "ledgerRecovery": false,
