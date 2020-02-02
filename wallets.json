@@ -31,7 +31,7 @@
             "qrGenerator":true,
             "authenticationMethods": ["password"],
             "moreInformation": "https://app.magnumwallet.co/",
-            "other": "<a href=\"https://magnumwallet.co/\" target=\"_blank\">Homepage</a>"
+            "other": "<a href=\"https://magnumwallet.co/\">Homepage</a>"
         }
     },
     {
@@ -66,7 +66,7 @@
             "qrGenerator": true,
             "authenticationMethods": ["password", "pin", "biometrics"],
             "moreInformation": "https://natrium.io/",
-            "other": "iWatch, Appia support, supported by the Nano Foundation.<br><a href=\"https://medium.com/appditto/natrium-v2-1-security-audit-and-more-26ebec66bd5b\" target=\"_blank\">Natrium audited by Red4Sec</a>."
+            "other": "iWatch, Appia support, supported by the Nano Foundation.<br><a href=\"https://medium.com/appditto/natrium-v2-1-security-audit-and-more-26ebec66bd5b\">Natrium audited by Red4Sec</a>."
         }
     },
     {
@@ -101,7 +101,7 @@
             "qrGenerator":true,
             "authenticationMethods": ["email+password","2fa"],
             "moreInformation": "https://app.brainblocks.io/",
-            "other": "Charts. <a href=\"https://discord.gg/MwaQcVM\" target=\"_blank\">Discord</a>"
+            "other": "Charts. <a href=\"https://discord.gg/MwaQcVM\">Discord</a>"
         }
     },
     {
@@ -136,7 +136,7 @@
             "qrGenerator":true,
             "authenticationMethods": ["password"],
             "moreInformation": "https://nanovault.io/",
-            "other": "<a href=\"https://github.com/cronoh/nanovault/releases\" target=\"_blank\">Desktop download</a>"
+            "other": "<a href=\"https://github.com/cronoh/nanovault/releases\">Desktop download</a>"
         }
     },
     {
@@ -171,7 +171,7 @@
             "qrGenerator":true,
             "authenticationMethods": ["password"],
             "moreInformation": "https://vault.mynano.ninja/",
-            "other": "Mirror site of Nanovault. <a href=\"https://github.com/cronoh/nanovault/releases\" target=\"_blank\">Desktop download</a>"
+            "other": "Mirror site of Nanovault. <a href=\"https://github.com/cronoh/nanovault/releases\">Desktop download</a>"
         }
     },
     {
@@ -241,7 +241,7 @@
             "qrGenerator":true,
             "authenticationMethods": ["password","biometrics"],
             "moreInformation": "https://apps.apple.com/us/app/nano-blocks/id1378558905?ls=1",
-            "other": "<a href=\"https://discord.gg/n76DkEt\" target=\"_blank\">Discord</a>"
+            "other": "<a href=\"https://discord.gg/n76DkEt\">Discord</a>"
         }
     },
     {
@@ -276,7 +276,7 @@
             "qrGenerator":true,
             "authenticationMethods": ["password","biometrics(mobile)"],
             "moreInformation": "https://atomicwallet.io/",
-            "other": ""
+            "other": "<a href=\"https://medium.com/unstoppabledomains/atomic-wallet-domain-resolution-is-live-435dc54635\">Supports domain resolution (Unstoppable domains)</a>."
         }
     },
     {
@@ -311,7 +311,7 @@
             "qrGenerator":true,
             "authenticationMethods": ["password"],
             "moreInformation": "https://github.com/getcanoe/canoe",
-            "other": "No long maintained, <a href=\"https://getcanoe.io/2020/01/08/end-of-the-road.html\" target=\"_blank\">Read more</a>."
+            "other": "No long maintained, <a href=\"https://getcanoe.io/2020/01/08/end-of-the-road.html\">Read more</a>."
         }
     },
     {
@@ -381,7 +381,7 @@
             "qrGenerator":true,
             "authenticationMethods": ["password","biometrics"],
             "moreInformation": "https://trustwallet.com/",
-            "other": ""
+            "other": "Supports domain resolution (Unstoppable domains)"
         }
     },
     {
