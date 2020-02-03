@@ -470,14 +470,14 @@
             "transactionNote": false,
             "multiAccount": true,
             "watchOnlyAddress": true,
-            "seedImport": ["nano"],
+            "seedImport": ["nano","bip39"],
             "seedExport": ["nano"],
             "mnemonicImport": ["24-word"],
             "mnemonicExport": ["24-word"],
             "privateKeyImport": true,
             "privateKeyExport": true,
             "privateKeyDerivation": ["blake2b", "bip39/44"],
-            "walletSweep": [],
+            "walletSweep": ["nano seed","bip39 seed", "nano mnemonic", "bip39 mnemonic", "privKey"],
             "keyStorage": [],
             "fileBackup": false,
             "hostsTheirOwnRep": "https://nanocharts.info/address/nano_1iuz18n4g4wfp9gf7p1s8qkygxw7wx9qfjq6a9aq68uyrdnningdcjontgar",
@@ -486,7 +486,7 @@
             "qrGenerator":true,
             "authenticationMethods": [],
             "moreInformation": "https://tools.nanos.cc/",
-            "other": "Manual (off-chain) signing dev wallet with RPC commands and also has (offline) unit converter, key converter, paper wallet, payment card, wallet generator, vanity generator"
+            "other": "Manual (off-chain) signing dev wallet with RPC commands and also has (offline) unit converter, key converter, paper wallet, payment card, wallet generator, vanity generator, wallet sweeper. <a href=\"https://discord.gg/RVCuFvc\">Discord</a>"
         }
     },
     {
