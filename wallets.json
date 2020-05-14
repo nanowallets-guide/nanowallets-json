@@ -251,7 +251,7 @@
         "featureComplete": true,
         "features": {
             "platforms": ["win","mac","linux","ios","android"],
-            "openSource": "https://github.com/Atomicwallet",
+            "openSource": false,
             "changeRepSupport": false,
             "multiAssetSupport": true,
             "ledgerSupport": false,
@@ -321,7 +321,7 @@
         "featureComplete": true,
         "features": {
             "platforms": ["win","mac","linux","ios","android"],
-            "openSource": "https://www.exodus.io/",
+            "openSource": false,
             "changeRepSupport": true,
             "multiAssetSupport": true,
             "ledgerSupport": false,
