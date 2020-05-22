@@ -196,7 +196,7 @@
             "mnemonicExport": [],
             "privateKeyImport": false,
             "privateKeyExport": true,
-            "privateKeyDerivation": ["blake2b"],
+            "privateKeyDerivation": ["blake2x"],
             "walletSweep": [],
             "keyStorage": ["local"],
             "fileBackup": false,
