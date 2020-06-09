@@ -593,5 +593,40 @@
             "moreInformation": "https://wenano.net/",
             "other": "<a href=\"https://discord.gg/VWrheuX\" target=\"_blank\">Discord</a>. Geo located faucets. Socials for interacting with friends or nearby wallets. Profiles, QuickTip."
         }
+    },
+    {
+        "name": "TIX",
+        "slug": "tix",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/tix.png",
+        "featureComplete": true,
+        "features": {
+            "platforms": ["web"],
+            "openSource": "https://github.com/Joohansson/nano-wallet",
+            "changeRepSupport": true,
+            "multiAssetSupport": false,
+            "ledgerSupport": false,
+            "ledgerRecovery": false,
+            "contactBook": false,
+            "transactionNote": false,
+            "multiAccount": true,
+            "watchOnlyAddress": true,
+            "seedImport": ["nano"],
+            "seedExport": [],
+            "mnemonicImport": [],
+            "mnemonicExport": [],
+            "privateKeyImport": true,
+            "privateKeyExport": false,
+            "privateKeyDerivation": ["blake2b"],
+            "walletSweep": [],
+            "keyStorage": [],
+            "fileBackup": true,
+            "hostsTheirOwnRep": "https://nanocharts.info/address/nano_1iuz18n4g4wfp9gf7p1s8qkygxw7wx9qfjq6a9aq68uyrdnningdcjontgar",
+            "exchangeService": false,
+            "qrReader":true,
+            "qrGenerator":true,
+            "authenticationMethods": [],
+            "moreInformation": "https://tix.nanos.cc/",
+            "other": "Lightweight 100% client-side except minimal RPC API calls."
+        }
     }
 ]
