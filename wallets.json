@@ -625,7 +625,7 @@
             "qrReader":true,
             "qrGenerator":true,
             "authenticationMethods": [],
-            "moreInformation": "https://tix.nanos.cc/",
+            "moreInformation": "https://tixwallet.cc/",
             "other": "Lightweight 100% client-side except minimal RPC API calls."
         }
     }
