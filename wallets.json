@@ -140,13 +140,13 @@
         }
     },
     {
-        "name": "Ninjavault",
-        "slug": "ninjavault",
-        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/ninjavault.png",
+        "name": "Nault",
+        "slug": "nault",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/nault.png",
         "featureComplete": true,
         "features": {
             "platforms": ["web","win","mac","linux"],
-            "openSource": "https://github.com/BitDesert/nanovault",
+            "openSource": "https://github.com/BitDesert/Nault",
             "changeRepSupport": true,
             "multiAssetSupport": false,
             "ledgerSupport": true,
@@ -165,13 +165,13 @@
             "walletSweep": [],
             "keyStorage": ["local"],
             "fileBackup": true,
-            "hostsTheirOwnRep": "https://nanocharts.info/address/nano_1ninja7rh37ehfp9utkor5ixmxyg8kme8fnzc4zty145ibch8kf5jwpnzr3r",
+            "hostsTheirOwnRep": "https://nanocharts.info/address/nano_1center16ci77qw5w69ww8sy4i4bfmgfhr81ydzpurm91cauj11jn6y3uc5y",
             "exchangeService": false,
             "qrReader":false,
             "qrGenerator":true,
             "authenticationMethods": ["password"],
-            "moreInformation": "https://vault.mynano.ninja/",
-            "other": "Mirror site of Nanovault. <a href=\"https://github.com/cronoh/nanovault/releases\">Desktop download</a>"
+            "moreInformation": "https://nault.cc",
+            "other": "The new NanoVault. <a href=\"https://github.com/BitDesert/Nault/releases\">Desktop download</a>"
         }
     },
     {
