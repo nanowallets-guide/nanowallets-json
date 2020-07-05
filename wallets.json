@@ -171,7 +171,7 @@
             "qrGenerator":true,
             "authenticationMethods": ["password"],
             "moreInformation": "https://nault.cc",
-            "other": "The new NanoVault. <a href=\"https://github.com/BitDesert/Nault/releases\">Desktop download</a>"
+            "other": "The new NanoVault. Extended private key import. <a href=\"https://github.com/BitDesert/Nault/releases\">Desktop download</a>"
         }
     },
     {
