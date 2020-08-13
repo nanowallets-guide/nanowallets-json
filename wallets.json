@@ -6,7 +6,7 @@
         "featureComplete": true,
         "features": {
             "platforms": ["web","android"],
-            "openSource": "https://github.com/magnumwallet",
+            "openSource": false,
             "changeRepSupport": true,
             "multiAssetSupport": true,
             "ledgerSupport": true,
