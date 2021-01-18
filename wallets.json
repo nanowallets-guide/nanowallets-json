@@ -493,7 +493,7 @@
         "name": "Kaiak",
         "slug": "kaiak",
         "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/kaiak.png",
-        "featureComplete": false,
+        "featureComplete": true,
         "features": {
             "platforms": ["kaios", "web"],
             "openSource": "https://github.com/kaiak/kaiak-wallet",
