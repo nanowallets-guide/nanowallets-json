@@ -488,5 +488,40 @@
             "moreInformation": "https://nalli.app/",
             "other": "Non-custodial mobile wallet with the power to pay anyone in your contacts, even if they haven't got a wallet."
         }
+    },
+    {
+        "name": "Kaiak",
+        "slug": "kaiak",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/kaiak.png",
+        "featureComplete": false,
+        "features": {
+            "platforms": ["kaios", "web"],
+            "openSource": "https://github.com/kaiak/kaiak-wallet",
+            "changeRepSupport": true,
+            "multiAssetSupport": false,
+            "ledgerSupport": false,
+            "ledgerRecovery": false,
+            "contactBook": false,
+            "transactionNote": false,
+            "multiAccount": true,
+            "watchOnlyAddress": false,
+            "seedImport": ["nano", "bip39"],
+            "seedExport": ["nano", "bip39"],
+            "mnemonicImport": [],
+            "mnemonicExport": [],
+            "privateKeyImport": false,
+            "privateKeyExport": false,
+            "privateKeyDerivation": ["blake2b", "bip39/44"],
+            "walletSweep": [],
+            "keyStorage": ["local"],
+            "fileBackup": false,
+            "hostsTheirOwnRep": "https://nanocharts.info/address/nano_1kaiak5dbaaqpenb7nshqgq9tehgb5wy9y9ju9ehunexzmkzmzphk8yw8r7u",
+            "exchangeService": false,
+            "qrReader":true,
+            "qrGenerator":true,
+            "authenticationMethods": ["pin"],
+            "moreInformation": "https://kaiak.cc",
+            "other": "Lightweight mobile wallet for KaiOS devices (https://www.kaiostech.com/). KaiStore approval pending!"
+        }
     }
 ]
