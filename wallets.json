@@ -76,7 +76,7 @@
         "featureComplete": true,
         "features": {
             "platforms": ["web","win","mac","linux"],
-            "openSource": "https://github.com/BitDesert/Nault",
+            "openSource": "https://github.com/Nault/Nault",
             "changeRepSupport": true,
             "multiAssetSupport": false,
             "ledgerSupport": true,
@@ -95,13 +95,13 @@
             "walletSweep": ["nano seed","bip39 seed", "nano mnemonic", "bip39 mnemonic", "privKey"],
             "keyStorage": ["local"],
             "fileBackup": true,
-            "hostsTheirOwnRep": "https://nanocharts.info/address/nano_1center16ci77qw5w69ww8sy4i4bfmgfhr81ydzpurm91cauj11jn6y3uc5y",
+            "hostsTheirOwnRep": false,
             "exchangeService": false,
             "qrReader":true,
             "qrGenerator":true,
             "authenticationMethods": ["password"],
             "moreInformation": "https://nault.cc",
-            "other": "The new NanoVault. Extended private key import. <a href=\"https://github.com/BitDesert/Nault/releases\">Desktop download</a>"
+            "other": "<a href=\"https://github.com/Nault/Nault/releases\">Desktop download</a>"
         }
     },
     {
