@@ -234,14 +234,12 @@
           "seedImport": [],
           "seedExport": [],
           "mnemonicImport": [
-            "12-word",
             "24-word"
           ],
           "mnemonicExport": [],
           "privateKeyImport": true,
           "privateKeyExport": true,
           "privateKeyDerivation": [
-            "blake2b",
             "bip39/44"
           ],
           "walletSweep": [],
