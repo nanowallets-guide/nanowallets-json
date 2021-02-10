@@ -577,7 +577,7 @@
     {
         "name": "Gonano",
         "slug": "gonano",
-        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/nanonode.png",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/gonano.png",
         "featureComplete": true,
         "features": {
             "platforms": ["win","mac","linux"],
