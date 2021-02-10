@@ -606,7 +606,7 @@
             "qrGenerator": false,
             "authenticationMethods": ["password"],
             "moreInformation": "https://github.com/hectorchu/gonano-gui",
-            "other": "Command-line version also available at https://github.com/hectorchu/gonano"
+            "other": "<a href=\"https://github.com/hectorchu/gonano\">Command-line version</a> also available"
         }
     }
 ]
