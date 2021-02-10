@@ -573,5 +573,40 @@
             "moreInformation": "https://kaiak.cc",
             "other": "Lightweight mobile wallet for KaiOS devices (https://www.kaiostech.com/). KaiStore approval pending!"
         }
+    },
+    {
+        "name": "Gonano",
+        "slug": "gonano",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/nanonode.png",
+        "featureComplete": true,
+        "features": {
+            "platforms": ["win","mac","linux"],
+            "openSource": "https://github.com/hectorchu/gonano-gui",
+            "changeRepSupport": true,
+            "multiAssetSupport": false,
+            "ledgerSupport": true,
+            "ledgerRecovery": false,
+            "contactBook": false,
+            "transactionNote": false,
+            "multiAccount": true,
+            "watchOnlyAddress": false,
+            "seedImport": ["nano","bip39"],
+            "seedExport": ["nano","bip39"],
+            "mnemonicImport": ["24-word"],
+            "mnemonicExport": ["24-word"],
+            "privateKeyImport": false,
+            "privateKeyExport": false,
+            "privateKeyDerivation": ["blake2b","bip39/44"],
+            "walletSweep": ["nano seed","bip39 mnemonic"],
+            "keyStorage": ["local"],
+            "fileBackup": true,
+            "hostsTheirOwnRep": "https://nanocharts.info/address/nano_3gonano8jnse4zm65jaiki9tk8ry4jtgc1smarinukho6fmbc45k3icsh6en",
+            "exchangeService": false,
+            "qrReader": false,
+            "qrGenerator": false,
+            "authenticationMethods": ["password"],
+            "moreInformation": "https://github.com/hectorchu/gonano-gui",
+            "other": "<a href=\"https://github.com/hectorchu/gonano\">Command-line version</a> also available"
+        }
     }
 ]
