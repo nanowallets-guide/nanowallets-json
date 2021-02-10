@@ -212,7 +212,7 @@
     {
         "name": "Guarda Wallet",
         "slug": "guarda",
-        "logo": "https://nanowallets.guide/assets/wallet-logos/guarda.png",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/guarda.png",
         "featureComplete": true,
         "features": {
           "platforms": [
