@@ -210,6 +210,56 @@
         }
     },
     {
+        "name": "Guarda Wallet",
+        "slug": "guarda",
+        "logo": "https://nanowallets.guide/assets/wallet-logos/guarda.png",
+        "featureComplete": true,
+        "features": {
+          "platforms": [
+            "android",
+            "ios",
+            "win",
+            "mac",
+            "linux"
+          ],
+          "openSource": "https://github.com/guardaco",
+          "changeRepSupport": false,
+          "multiAssetSupport": true,
+          "ledgerSupport": true,
+          "ledgerRecovery": false,
+          "contactBook": false,
+          "transactionNote": true,
+          "multiAccount": true,
+          "watchOnlyAddress": true,
+          "seedImport": [],
+          "seedExport": [],
+          "mnemonicImport": [
+            "24-word"
+          ],
+          "mnemonicExport": [],
+          "privateKeyImport": true,
+          "privateKeyExport": true,
+          "privateKeyDerivation": [
+            "bip39/44"
+          ],
+          "walletSweep": [],
+          "keyStorage": [
+            "local"
+          ],
+          "fileBackup": true,
+          "hostsTheirOwnRep": false,
+          "exchangeService": true,
+          "qrReader": true,
+          "qrGenerator": true,
+          "authenticationMethods": [
+            "password",
+            "biometrics(mobile)"
+          ],
+          "moreInformation": "https://guarda.com/",
+          "other": "Secure, feature-packed, non-custodial crypto wallet for web, desktop, Android and iOS."
+        }
+    },
+    {
         "name": "Trust Wallet",
         "slug": "trust-wallet",
         "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/trustwallet.png",
