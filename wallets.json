@@ -511,7 +511,7 @@
         "featureComplete": true,
         "features": {
             "platforms": ["android", "ios"],
-            "openSource": false,
+            "openSource": "https://github.com/numsu/nalli",
             "changeRepSupport": false,
             "multiAssetSupport": false,
             "ledgerSupport": false,
