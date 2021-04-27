@@ -608,5 +608,39 @@
             "moreInformation": "https://github.com/hectorchu/gonano-gui",
             "other": "<a href=\"https://github.com/hectorchu/gonano\">Command-line version</a> also available"
         }
+    },
+    {
+        "name": "atto",
+        "slug": "atto",
+        "featureComplete": true,
+        "features": {
+            "platforms": ["Linux", "MacOS", "*BSD"],
+            "openSource": "https://github.com/codesoap/atto",
+            "changeRepSupport": true,
+            "multiAssetSupport": false,
+            "ledgerSupport": false,
+            "ledgerRecovery": false,
+            "contactBook": false,
+            "transactionNote": false,
+            "multiAccount": true,
+            "watchOnlyAddress": false,
+            "seedImport": ["nano"],
+            "seedExport": ["nano"],
+            "mnemonicImport": [],
+            "mnemonicExport": [],
+            "privateKeyImport": false,
+            "privateKeyExport": false,
+            "privateKeyDerivation": ["blake2b"],
+            "walletSweep": [],
+            "keyStorage": ["none"],
+            "fileBackup": false,
+            "hostsTheirOwnRep": false,
+            "exchangeService": false,
+            "qrReader": false,
+            "qrGenerator": false,
+            "authenticationMethods": [],
+            "moreInformation": "https://github.com/codesoap/atto",
+            "other": "A tiny command-line wallet which focuses on simplicity."
+        }
     }
 ]
