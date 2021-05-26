@@ -612,6 +612,7 @@
     {
         "name": "atto",
         "slug": "atto",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/atto.png",
         "featureComplete": true,
         "features": {
             "platforms": ["Linux", "MacOS", "*BSD"],
