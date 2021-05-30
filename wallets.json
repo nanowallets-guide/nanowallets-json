@@ -647,7 +647,7 @@
     {
         "name": "Nano Terminal Wallet",
         "slug": "nano-terminal-wallet",
-        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/atto.png",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/terminal.png",
         "featureComplete": true,
         "features": {
             "platforms": ["OS with python"],
