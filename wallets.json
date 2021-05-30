@@ -645,7 +645,7 @@
         }
     },
     {
-        "name": "Nano Terminal Wallet",
+        "name": "NanoTerminal",
         "slug": "nano-terminal-wallet",
         "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/terminal.png",
         "featureComplete": true,
