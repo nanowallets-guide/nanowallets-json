@@ -615,7 +615,7 @@
         "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/atto.png",
         "featureComplete": true,
         "features": {
-            "platforms": ["Linux", "MacOS", "*BSD"],
+            "platforms": ["Linux", "Mac", "BSD", "Win"],
             "openSource": "https://github.com/codesoap/atto",
             "changeRepSupport": true,
             "multiAssetSupport": false,
