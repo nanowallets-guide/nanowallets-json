@@ -7,7 +7,7 @@
 ![Last updated](https://img.shields.io/github/last-commit/nanowallets-guide/nanowallets-json/master?label=last%20updated)
 ![Contributors](https://img.shields.io/github/contributors/nanowallets-guide/nanowallets-json)
 
-A json feature-list for wallets that support Nano, were the user have access to keys (*Not your keys, not your Nano*). Currently used by [nanowallets.guide](https://nanowallets.guide) to dynamically render a comparison view for all features between all wallets. For use of the generated json file please refer to this link [wallets.json](https://nanowallets.s3.eu-north-1.amazonaws.com/wallets.json)
+A json feature-list for wallets that support Nano, where the user have access to keys (*Not your keys, not your Nano*). Currently used by [nanowallets.guide](https://nanowallets.guide) to dynamically render a comparison view for all features between all wallets. For use of the generated json file please refer to this link [wallets.json](https://nanowallets.s3.eu-north-1.amazonaws.com/wallets.json)
 
 ## Features
 
