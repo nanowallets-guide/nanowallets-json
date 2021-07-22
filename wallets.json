@@ -291,7 +291,7 @@
             "qrGenerator":true,
             "authenticationMethods": ["password","biometrics"],
             "moreInformation": "https://trustwallet.com/",
-            "other": "Supports domain resolution (Unstoppable domains)"
+            "other": "Supports domain resolution (Unstoppable domains). Trust wallet does not allow ledger recovery if ledger uses a BIP39 passphrase."
         }
     },
     {
