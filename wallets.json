@@ -681,7 +681,7 @@
         {
         "name": "SimpleHold Wallet",
         "slug": "simplehold-wallet",
-        "logo": "https://simplehold.io/_next/static/images/sh_logo_header-39b7079f7ed7a2f27249fc590d190fc1.svg",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/simplehold.png",
         "featureComplete": true,
         "features": {
             "platforms": ["android", "ios", "web"],
