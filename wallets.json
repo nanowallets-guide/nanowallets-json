@@ -712,6 +712,40 @@
             "authenticationMethods": [],
             "moreInformation": "https://github.com/NinjaSnail1080/nano-terminal-wallet",
             "other": "A super simple wallet that runs in the terminal"
+        },
+        {
+        "name": "SimpleHold Wallet",
+        "slug": "simplehold-wallet",
+        "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/simplehold.png",
+        "featureComplete": true,
+        "features": {
+            "platforms": ["android", "ios", "web"],
+            "openSource": "https://github.com/simplehold",
+            "changeRepSupport": false,
+            "multiAssetSupport": true,
+            "ledgerSupport": true,
+            "ledgerRecovery": false,
+            "contactBook": false,
+            "transactionNote": false,
+            "multiAccount": true,
+            "watchOnlyAddress": false,
+            "seedImport": [],
+            "seedExport": [],
+            "mnemonicImport": ["12-word"],
+            "mnemonicExport": ["12-word"],
+            "privateKeyImport": true,
+            "privateKeyExport": true,
+            "privateKeyDerivation": ["Bip39/44"],
+            "walletSweep": [],
+            "keyStorage": [],
+            "fileBackup": true,
+            "hostsTheirOwnRep": false,
+            "exchangeService": true,
+            "qrReader": true,
+            "qrGenerator": false,
+            "authenticationMethods": ["Password", "Biometrics"],
+            "moreInformation": "https://simplehold.io",
+            "other": "Simple and secure wallet for Nano"
         }
     }
 ]
