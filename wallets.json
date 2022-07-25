@@ -475,7 +475,7 @@
         "logo": "https://nanowallets.s3.eu-north-1.amazonaws.com/wallet-logos/wenano.png",
         "featureComplete": true,
         "features": {
-            "platforms": ["ios"],
+            "platforms": ["android", "ios"],
             "openSource": false,
             "changeRepSupport": false,
             "multiAssetSupport": false,
