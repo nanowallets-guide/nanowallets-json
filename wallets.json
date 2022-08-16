@@ -49,7 +49,7 @@
             "contactBook": true,
             "transactionNote": true,
             "multiAccount": true,
-            "watchOnlyAddress": false,
+            "watchOnlyAddress": true,
             "seedImport": ["nano"],
             "seedExport": ["nano"],
             "mnemonicImport": ["24-word"],
