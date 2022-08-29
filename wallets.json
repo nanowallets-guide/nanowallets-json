@@ -43,7 +43,7 @@
             "platforms": ["android", "ios", "mac"],
             "openSource": "https://github.com/perishllc/nautilus",
             "changeRepSupport": true,
-            "multiAssetSupport": false,
+            "multiAssetSupport": true,
             "ledgerSupport": false,
             "ledgerRecovery": false,
             "contactBook": true,
