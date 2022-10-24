@@ -65,7 +65,7 @@
             "qrReader": true,
             "qrGenerator": true,
             "authenticationMethods": ["password", "pin", "biometrics"],
-            "moreInformation": "https://nautiluswallet.app",
+            "moreInformation": "https://nautilus.io",
             "other": "Natrium fork, with many additional features such as Payment Requests and E2EE Memos/Messages"
         }
     },
