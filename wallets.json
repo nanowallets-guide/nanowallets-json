@@ -712,6 +712,7 @@
             "authenticationMethods": [],
             "moreInformation": "https://github.com/NinjaSnail1080/nano-terminal-wallet",
             "other": "A super simple wallet that runs in the terminal"
+        }
         },
         {
         "name": "SimpleHold Wallet",
